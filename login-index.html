@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #NavBar {
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+    }
+    #NavBar button {
+        border: none;
+        background-color: indianred;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        transition: padding 0.3s ease,border-radius 0.2s ease-in-out;
+    }
+
+    #NavBar button:active {
+        padding: 20px;
+    }
+
+    #NavBar button:hover {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+</style>
+<body>
+    <section>
+    <nav id="NavBar">
+        <button type="button">HOME</button>
+        <button type="button">ABOUT</button>
+        <button type="button">JOIND</button>
+        <p class='profileName'>null</p>
+    </nav>
+    </section>
+    <script src="main-login.js"></script>
+</body>
+</html>

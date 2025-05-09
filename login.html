@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="data:,">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #title {
+        text-align: center;
+    }
+    #login {
+        text-align: center;
+    }
+
+    .animation {
+        animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0;}100%{opacity: 1;}
+}
+</style>
+<body>
+    <section id="title">
+        <h1>Login Now</h1>
+    </section>
+    <section id="login">
+        <p>email</p>
+        <input class="email" type="email" placeholder="input email">
+        <p>password</p>
+        <input class="password" type="text" placeholder="input">
+        <button id="button">login</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
